@@ -1,0 +1,24 @@
+document all the things
+use double buffering
+change size of LEDs when in "Points" draw mode
+create slider for opacity of "off" leds
+fix weird zoom reset when changing cube size
+save checkbox settings to QSettings
+when rotating the cube far, the direction of rotation gets inverted. fix this.
+save rotation settings to cube settings 
+add reset rotation button (set xRot, yRot, and zRot to 0)
+add outline when cubes are off
+
+assignment (2/24/14):
+-add stuff to groupboxes (resolution, LED color, transforms, )
+-color options (radio buttons with RGB and white and yellow)
+-add spinboxes to rotation sliders and zoom slider
+-everything should have a default value
+	-size is 16
+	-color is white
+-try making zoom a translation of the camera
+
+
+ambitious: Use perspective instead of orthographic projection
+very ambitious: Be able to parse a math formula and use it to display the cube
+
